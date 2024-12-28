@@ -1,0 +1,60 @@
+@media screen and (max-width:1199px) {
+    header{
+        padding: 0 10px;
+    }
+    header .d-flex h1{
+        display: none;
+    }
+    .d-flex .img-mobile img{
+        display: inline-block;
+        }
+        header .header-mean img{
+          display: none;
+        }
+        header .header-mean{
+            display: block;
+            align-items: center; /* Центрирование текста по вертикали */
+            justify-content: center; /* Центрирование текста по горизонтали */
+            width: 150px;
+        }
+        header .header-mean a{
+            display: none;
+        }
+        main .container img{
+            max-width: 500px;
+        }
+        main .container{
+            padding: 0 10px;
+            align-items: center;
+            justify-content: center;
+        }
+        main .main-info{
+            display: block;
+            justify-content:space-around;
+            align-items: center;
+            padding: 20px 100px;
+        }
+        main .main-info .main-info-icon1{
+            padding:0 50px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+        main .main-info .main-info-icon1 h3{
+           font-size: 50px;
+           margin-top: 40px;
+           text-align: center;
+           margin: 0 40px;
+        }
+        main .main-info .main-info-icon1 p{
+            margin-bottom: 40px;
+         }
+         main .info-scholirship{
+            align-items: center;
+            justify-content: center;
+         }
+         footer{
+            padding: 0 20px;
+         }
+
+}
