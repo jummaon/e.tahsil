@@ -25,7 +25,7 @@
             justify-content: center;
         }
         main .container img{
-            max-width: 400px;
+            max-width: 300px;
         }
         main .container{
             padding: 0 10px;
@@ -43,7 +43,7 @@
            
         }
          main .main-info .main-info-icon1{
-           padding: 0 50px;
+           padding: 0 70px;
          }
         main .main-info img{
             padding: 20px;
