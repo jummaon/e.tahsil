@@ -20,8 +20,12 @@
         header .header-mean a{
             display: none;
         }
+        main {
+            align-items: center;
+            justify-content: center;
+        }
         main .container img{
-            max-width: 500px;
+            max-width: 400px;
         }
         main .container{
             padding: 0 10px;
@@ -29,17 +33,22 @@
             justify-content: center;
         }
         main .main-info{
-            display: block;
-            justify-content:space-around;
-            align-items: center;
-            padding: 20px 100px;
-        }
-        main .main-info .main-info-icon1{
-            padding:0 50px;
-            text-align: center;
+            display: inline-block;
             justify-content: center;
-            align-items: center;
+           
         }
+
+        main .main-info img{
+           padding: 20px;
+           
+        }
+         main .main-info .main-info-icon1{
+           padding: 0 50px;
+         }
+        main .main-info img{
+            padding: 20px;
+            
+         }
         main .main-info .main-info-icon1 h3{
            font-size: 50px;
            margin-top: 40px;
